@@ -1,0 +1,202 @@
+{
+  "format": 1,
+  "version": 1,
+  "updated": "2026-10-13",
+  "note": "Kilometre intervals per model from Egyptian service schedules. Time limits (months) are not in these sources, so the app keeps its general estimate for time. Items a schedule does not mention keep the general estimate.",
+  "schedules": [
+    {
+      "id": "renault-fluence-1.6",
+      "title": { "ar": "رينو فلوانس 1.6", "en": "Renault Fluence 1.6" },
+      "match": {
+        "modelIds": ["renault-fluence"],
+        "makes": ["renault", "رينو"],
+        "models": ["fluence", "فلوانس", "فلونس", "فليونس"],
+        "liters": [1.6],
+        "from": 2009,
+        "to": 2020
+      },
+      "timing": "belt",
+      "items": {
+        "oil": 10000,
+        "air_filter": 10000,
+        "cabin_filter": 20000,
+        "spark_plugs": 80000,
+        "coolant": 60000,
+        "brake_fluid": 60000,
+        "drive_belt": 60000,
+        "timing_belt": 60000
+      },
+      "sources": [
+        { "name": "Dokkan Auto — جدول صيانة فلوانس 2017", "url": "https://dokkanauto.com/maintenance/renault/%D8%AC%D8%AF%D9%88%D9%84-%D8%B5%D9%8A%D8%A7%D9%86%D8%A9-%D9%81%D9%84%D9%88%D8%A7%D9%86%D8%B3-2017/" },
+        { "name": "Renault — Timing belts", "url": "https://www.renault.ie/maintenance/timing-belt.html" }
+      ],
+      "notes": {
+        "ar": "جدول مركز صيانة متخصص في رينو بمصر (مش جدول الوكيل). سير التايمنج كل 60 ألف كم حسب الممارسة المعتادة لمحرك K4M، ورينو بتحدد حد أقصى بالسنين كمان.",
+        "en": "Schedule from an Egyptian Renault specialist (not the dealer). Timing belt every 60,000 km per common practice for the K4M engine; Renault also sets a maximum age."
+      }
+    },
+    {
+      "id": "renault-logan-1.6",
+      "title": { "ar": "رينو لوجان 1.6", "en": "Renault Logan 1.6" },
+      "match": {
+        "modelIds": ["renault-logan", "renault-sandero", "renault-symbol"],
+        "makes": ["renault", "رينو"],
+        "models": ["logan", "لوجان", "sandero", "سانديرو", "symbol", "سيمبول"],
+        "liters": [1.6],
+        "from": 2004
+      },
+      "timing": "belt",
+      "items": {
+        "oil": 10000,
+        "air_filter": 10000,
+        "cabin_filter": 20000,
+        "spark_plugs": 20000,
+        "coolant": 60000,
+        "drive_belt": 60000,
+        "timing_belt": 60000
+      },
+      "sources": [
+        { "name": "Dokkan Auto — جدول صيانة لوجان مانيوال", "url": "https://dokkanauto.com/maintenance/renault/%D8%AC%D8%AF%D9%88%D9%84-%D8%B5%D9%8A%D8%A7%D9%86%D8%A9-%D9%84%D9%88%D8%AC%D8%A7%D9%86-%D9%85%D8%A7%D9%86%D9%8A%D9%88%D8%A7%D9%84/" }
+      ],
+      "notes": {
+        "ar": "جدول مركز صيانة متخصص في رينو بمصر (مش جدول الوكيل).",
+        "en": "Schedule from an Egyptian Renault specialist (not the dealer)."
+      }
+    },
+    {
+      "id": "nissan-sunny-n17",
+      "title": { "ar": "نيسان صني N17", "en": "Nissan Sunny N17" },
+      "match": {
+        "modelIds": ["nissan-sunny"],
+        "makes": ["nissan", "نيسان"],
+        "models": ["sunny", "صني", "صنى"],
+        "liters": [1.5],
+        "from": 2011
+      },
+      "timing": "chain",
+      "items": {
+        "oil": 10000,
+        "air_filter": 20000,
+        "cabin_filter": 20000,
+        "spark_plugs": 100000,
+        "coolant": 40000,
+        "brake_fluid": 40000,
+        "drive_belt": 40000
+      },
+      "sources": [
+        { "name": "Dokkan Auto — جدول صيانة صني N17", "url": "https://dokkanauto.com/%D8%AC%D8%AF%D9%88%D9%84-%D8%B5%D9%8A%D8%A7%D9%86%D8%A9-%D8%B5%D9%86%D9%8A-n17/" }
+      ],
+      "notes": {
+        "ar": "جدول مركز صيانة متخصص في نيسان بمصر (مش جدول الوكيل). المحرك بجنزير تايمنج.",
+        "en": "Schedule from an Egyptian Nissan specialist (not the dealer). Timing chain engine."
+      }
+    },
+    {
+      "id": "hyundai-elantra-hd",
+      "title": { "ar": "هيونداي إلنترا HD", "en": "Hyundai Elantra HD" },
+      "match": {
+        "modelIds": ["hyundai-elantra"],
+        "makes": ["hyundai", "هيونداي", "هيونداى", "هونداي"],
+        "models": ["elantra", "النترا", "إلنترا", "الانترا", "hd"],
+        "liters": [1.6],
+        "from": 2007,
+        "to": 2015
+      },
+      "timing": "chain",
+      "items": {
+        "oil": 10000,
+        "air_filter": 20000,
+        "cabin_filter": 30000,
+        "spark_plugs": 20000,
+        "tire_rotation": 10000,
+        "tire_replacement": 40000
+      },
+      "sources": [
+        { "name": "Shift — الجدول الكامل لصيانات هيونداي إلنترا HD (نوفمبر 2022)", "url": "https://www.shift-eg.com/news/local-news/details/17624" }
+      ],
+      "notes": {
+        "ar": "حسب الجدول المنشور لصيانات إلنترا HD في مصر حتى 100 ألف كم.",
+        "en": "From the published Egyptian Elantra HD service schedule up to 100,000 km."
+      }
+    },
+    {
+      "id": "hyundai-elantra-cn7",
+      "title": { "ar": "هيونداي إلنترا CN7", "en": "Hyundai Elantra CN7" },
+      "match": {
+        "modelIds": ["hyundai-elantra"],
+        "makes": ["hyundai", "هيونداي", "هيونداى", "هونداي"],
+        "models": ["elantra", "النترا", "إلنترا", "الانترا", "cn7"],
+        "liters": [1.6],
+        "from": 2021
+      },
+      "timing": "chain",
+      "items": {
+        "oil": 10000,
+        "air_filter": 20000,
+        "cabin_filter": 30000,
+        "brake_fluid": 40000,
+        "tire_rotation": 10000,
+        "tire_replacement": 40000
+      },
+      "sources": [
+        { "name": "Shift — تفاصيل الصيانات الأساسية لهيونداي إلنترا CN7 (نوفمبر 2022)", "url": "https://www.shift-eg.com/news/local-news/details/17783" }
+      ],
+      "notes": {
+        "ar": "حسب الجدول الرسمي المنشور لإلنترا CN7 في مصر حتى 100 ألف كم.",
+        "en": "From the official Egyptian Elantra CN7 schedule as published, up to 100,000 km."
+      }
+    },
+    {
+      "id": "mg-5",
+      "title": { "ar": "إم جي 5", "en": "MG 5" },
+      "match": {
+        "modelIds": ["mg-5"],
+        "makes": ["mg", "ام جي", "إم جي"],
+        "models": ["mg5", "mg 5", "5", "ام جي 5"],
+        "liters": [1.5],
+        "from": 2019
+      },
+      "items": {
+        "oil": 10000,
+        "air_filter": 20000,
+        "cabin_filter": 20000,
+        "spark_plugs": 30000,
+        "brake_fluid": 40000,
+        "transmission_fluid": 60000
+      },
+      "sources": [
+        { "name": "Shift — مراحل وتفاصيل أهم صيانات إم جي 5 (نوفمبر 2022)", "url": "https://www.shift-eg.com/news/local-news/details/17649" }
+      ],
+      "notes": {
+        "ar": "حسب الجدول الرسمي المنشور لإم جي 5 في مصر حتى 150 ألف كم.",
+        "en": "From the official Egyptian MG 5 schedule as published, up to 150,000 km."
+      }
+    },
+    {
+      "id": "mg-zs",
+      "title": { "ar": "إم جي ZS", "en": "MG ZS" },
+      "match": {
+        "modelIds": ["mg-zs"],
+        "makes": ["mg", "ام جي", "إم جي"],
+        "models": ["zs", "زد اس", "ام جي zs"],
+        "liters": [1.5],
+        "from": 2017
+      },
+      "items": {
+        "oil": 10000,
+        "air_filter": 20000,
+        "cabin_filter": 20000,
+        "spark_plugs": 30000,
+        "brake_fluid": 40000,
+        "transmission_fluid": 60000
+      },
+      "sources": [
+        { "name": "Shift — التفاصيل الكاملة لصيانات إم جي ZS (نوفمبر 2022)", "url": "https://www.shift-eg.com/news/local-news/details/17739" }
+      ],
+      "notes": {
+        "ar": "حسب الجدول الرسمي المنشور لإم جي ZS في مصر حتى 150 ألف كم.",
+        "en": "From the official Egyptian MG ZS schedule as published, up to 150,000 km."
+      }
+    }
+  ]
+}
