@@ -1,17 +1,32 @@
 {
   "format": 1,
-  "version": 1,
-  "updated": "2026-10-13",
+  "version": 2,
+  "updated": "2026-10-22",
   "note": "Kilometre intervals per model from Egyptian service schedules. Time limits (months) are not in these sources, so the app keeps its general estimate for time. Items a schedule does not mention keep the general estimate.",
   "schedules": [
     {
       "id": "renault-fluence-1.6",
-      "title": { "ar": "رينو فلوانس 1.6", "en": "Renault Fluence 1.6" },
+      "title": {
+        "ar": "رينو فلوانس 1.6",
+        "en": "Renault Fluence 1.6"
+      },
       "match": {
-        "modelIds": ["renault-fluence"],
-        "makes": ["renault", "رينو"],
-        "models": ["fluence", "فلوانس", "فلونس", "فليونس"],
-        "liters": [1.6],
+        "modelIds": [
+          "renault-fluence"
+        ],
+        "makes": [
+          "renault",
+          "رينو"
+        ],
+        "models": [
+          "fluence",
+          "فلوانس",
+          "فلونس",
+          "فليونس"
+        ],
+        "liters": [
+          1.6
+        ],
         "from": 2009,
         "to": 2020
       },
@@ -27,8 +42,14 @@
         "timing_belt": 60000
       },
       "sources": [
-        { "name": "Dokkan Auto — جدول صيانة فلوانس 2017", "url": "https://dokkanauto.com/maintenance/renault/%D8%AC%D8%AF%D9%88%D9%84-%D8%B5%D9%8A%D8%A7%D9%86%D8%A9-%D9%81%D9%84%D9%88%D8%A7%D9%86%D8%B3-2017/" },
-        { "name": "Renault — Timing belts", "url": "https://www.renault.ie/maintenance/timing-belt.html" }
+        {
+          "name": "Dokkan Auto — جدول صيانة فلوانس 2017",
+          "url": "https://dokkanauto.com/maintenance/renault/%D8%AC%D8%AF%D9%88%D9%84-%D8%B5%D9%8A%D8%A7%D9%86%D8%A9-%D9%81%D9%84%D9%88%D8%A7%D9%86%D8%B3-2017/"
+        },
+        {
+          "name": "Renault — Timing belts",
+          "url": "https://www.renault.ie/maintenance/timing-belt.html"
+        }
       ],
       "notes": {
         "ar": "جدول مركز صيانة متخصص في رينو بمصر (مش جدول الوكيل). سير التايمنج كل 60 ألف كم حسب الممارسة المعتادة لمحرك K4M، ورينو بتحدد حد أقصى بالسنين كمان.",
@@ -37,12 +58,31 @@
     },
     {
       "id": "renault-logan-1.6",
-      "title": { "ar": "رينو لوجان 1.6", "en": "Renault Logan 1.6" },
+      "title": {
+        "ar": "رينو لوجان 1.6",
+        "en": "Renault Logan 1.6"
+      },
       "match": {
-        "modelIds": ["renault-logan", "renault-sandero", "renault-symbol"],
-        "makes": ["renault", "رينو"],
-        "models": ["logan", "لوجان", "sandero", "سانديرو", "symbol", "سيمبول"],
-        "liters": [1.6],
+        "modelIds": [
+          "renault-logan",
+          "renault-sandero",
+          "renault-symbol"
+        ],
+        "makes": [
+          "renault",
+          "رينو"
+        ],
+        "models": [
+          "logan",
+          "لوجان",
+          "sandero",
+          "سانديرو",
+          "symbol",
+          "سيمبول"
+        ],
+        "liters": [
+          1.6
+        ],
         "from": 2004
       },
       "timing": "belt",
@@ -56,7 +96,10 @@
         "timing_belt": 60000
       },
       "sources": [
-        { "name": "Dokkan Auto — جدول صيانة لوجان مانيوال", "url": "https://dokkanauto.com/maintenance/renault/%D8%AC%D8%AF%D9%88%D9%84-%D8%B5%D9%8A%D8%A7%D9%86%D8%A9-%D9%84%D9%88%D8%AC%D8%A7%D9%86-%D9%85%D8%A7%D9%86%D9%8A%D9%88%D8%A7%D9%84/" }
+        {
+          "name": "Dokkan Auto — جدول صيانة لوجان مانيوال",
+          "url": "https://dokkanauto.com/maintenance/renault/%D8%AC%D8%AF%D9%88%D9%84-%D8%B5%D9%8A%D8%A7%D9%86%D8%A9-%D9%84%D9%88%D8%AC%D8%A7%D9%86-%D9%85%D8%A7%D9%86%D9%8A%D9%88%D8%A7%D9%84/"
+        }
       ],
       "notes": {
         "ar": "جدول مركز صيانة متخصص في رينو بمصر (مش جدول الوكيل).",
@@ -65,12 +108,26 @@
     },
     {
       "id": "nissan-sunny-n17",
-      "title": { "ar": "نيسان صني N17", "en": "Nissan Sunny N17" },
+      "title": {
+        "ar": "نيسان صني N17",
+        "en": "Nissan Sunny N17"
+      },
       "match": {
-        "modelIds": ["nissan-sunny"],
-        "makes": ["nissan", "نيسان"],
-        "models": ["sunny", "صني", "صنى"],
-        "liters": [1.5],
+        "modelIds": [
+          "nissan-sunny"
+        ],
+        "makes": [
+          "nissan",
+          "نيسان"
+        ],
+        "models": [
+          "sunny",
+          "صني",
+          "صنى"
+        ],
+        "liters": [
+          1.5
+        ],
         "from": 2011
       },
       "timing": "chain",
@@ -84,7 +141,10 @@
         "drive_belt": 40000
       },
       "sources": [
-        { "name": "Dokkan Auto — جدول صيانة صني N17", "url": "https://dokkanauto.com/%D8%AC%D8%AF%D9%88%D9%84-%D8%B5%D9%8A%D8%A7%D9%86%D8%A9-%D8%B5%D9%86%D9%8A-n17/" }
+        {
+          "name": "Dokkan Auto — جدول صيانة صني N17",
+          "url": "https://dokkanauto.com/%D8%AC%D8%AF%D9%88%D9%84-%D8%B5%D9%8A%D8%A7%D9%86%D8%A9-%D8%B5%D9%86%D9%8A-n17/"
+        }
       ],
       "notes": {
         "ar": "جدول مركز صيانة متخصص في نيسان بمصر (مش جدول الوكيل). المحرك بجنزير تايمنج.",
@@ -93,12 +153,30 @@
     },
     {
       "id": "hyundai-elantra-hd",
-      "title": { "ar": "هيونداي إلنترا HD", "en": "Hyundai Elantra HD" },
+      "title": {
+        "ar": "هيونداي إلنترا HD",
+        "en": "Hyundai Elantra HD"
+      },
       "match": {
-        "modelIds": ["hyundai-elantra"],
-        "makes": ["hyundai", "هيونداي", "هيونداى", "هونداي"],
-        "models": ["elantra", "النترا", "إلنترا", "الانترا", "hd"],
-        "liters": [1.6],
+        "modelIds": [
+          "hyundai-elantra"
+        ],
+        "makes": [
+          "hyundai",
+          "هيونداي",
+          "هيونداى",
+          "هونداي"
+        ],
+        "models": [
+          "elantra",
+          "النترا",
+          "إلنترا",
+          "الانترا",
+          "hd"
+        ],
+        "liters": [
+          1.6
+        ],
         "from": 2007,
         "to": 2015
       },
@@ -112,7 +190,10 @@
         "tire_replacement": 40000
       },
       "sources": [
-        { "name": "Shift — الجدول الكامل لصيانات هيونداي إلنترا HD (نوفمبر 2022)", "url": "https://www.shift-eg.com/news/local-news/details/17624" }
+        {
+          "name": "Shift — الجدول الكامل لصيانات هيونداي إلنترا HD (نوفمبر 2022)",
+          "url": "https://www.shift-eg.com/news/local-news/details/17624"
+        }
       ],
       "notes": {
         "ar": "حسب الجدول المنشور لصيانات إلنترا HD في مصر حتى 100 ألف كم.",
@@ -121,12 +202,30 @@
     },
     {
       "id": "hyundai-elantra-cn7",
-      "title": { "ar": "هيونداي إلنترا CN7", "en": "Hyundai Elantra CN7" },
+      "title": {
+        "ar": "هيونداي إلنترا CN7",
+        "en": "Hyundai Elantra CN7"
+      },
       "match": {
-        "modelIds": ["hyundai-elantra"],
-        "makes": ["hyundai", "هيونداي", "هيونداى", "هونداي"],
-        "models": ["elantra", "النترا", "إلنترا", "الانترا", "cn7"],
-        "liters": [1.6],
+        "modelIds": [
+          "hyundai-elantra"
+        ],
+        "makes": [
+          "hyundai",
+          "هيونداي",
+          "هيونداى",
+          "هونداي"
+        ],
+        "models": [
+          "elantra",
+          "النترا",
+          "إلنترا",
+          "الانترا",
+          "cn7"
+        ],
+        "liters": [
+          1.6
+        ],
         "from": 2021
       },
       "timing": "chain",
@@ -139,7 +238,10 @@
         "tire_replacement": 40000
       },
       "sources": [
-        { "name": "Shift — تفاصيل الصيانات الأساسية لهيونداي إلنترا CN7 (نوفمبر 2022)", "url": "https://www.shift-eg.com/news/local-news/details/17783" }
+        {
+          "name": "Shift — تفاصيل الصيانات الأساسية لهيونداي إلنترا CN7 (نوفمبر 2022)",
+          "url": "https://www.shift-eg.com/news/local-news/details/17783"
+        }
       ],
       "notes": {
         "ar": "حسب الجدول الرسمي المنشور لإلنترا CN7 في مصر حتى 100 ألف كم.",
@@ -148,12 +250,28 @@
     },
     {
       "id": "mg-5",
-      "title": { "ar": "إم جي 5", "en": "MG 5" },
+      "title": {
+        "ar": "إم جي 5",
+        "en": "MG 5"
+      },
       "match": {
-        "modelIds": ["mg-5"],
-        "makes": ["mg", "ام جي", "إم جي"],
-        "models": ["mg5", "mg 5", "5", "ام جي 5"],
-        "liters": [1.5],
+        "modelIds": [
+          "mg-5"
+        ],
+        "makes": [
+          "mg",
+          "ام جي",
+          "إم جي"
+        ],
+        "models": [
+          "mg5",
+          "mg 5",
+          "5",
+          "ام جي 5"
+        ],
+        "liters": [
+          1.5
+        ],
         "from": 2019
       },
       "items": {
@@ -165,7 +283,10 @@
         "transmission_fluid": 60000
       },
       "sources": [
-        { "name": "Shift — مراحل وتفاصيل أهم صيانات إم جي 5 (نوفمبر 2022)", "url": "https://www.shift-eg.com/news/local-news/details/17649" }
+        {
+          "name": "Shift — مراحل وتفاصيل أهم صيانات إم جي 5 (نوفمبر 2022)",
+          "url": "https://www.shift-eg.com/news/local-news/details/17649"
+        }
       ],
       "notes": {
         "ar": "حسب الجدول الرسمي المنشور لإم جي 5 في مصر حتى 150 ألف كم.",
@@ -174,12 +295,27 @@
     },
     {
       "id": "mg-zs",
-      "title": { "ar": "إم جي ZS", "en": "MG ZS" },
+      "title": {
+        "ar": "إم جي ZS",
+        "en": "MG ZS"
+      },
       "match": {
-        "modelIds": ["mg-zs"],
-        "makes": ["mg", "ام جي", "إم جي"],
-        "models": ["zs", "زد اس", "ام جي zs"],
-        "liters": [1.5],
+        "modelIds": [
+          "mg-zs"
+        ],
+        "makes": [
+          "mg",
+          "ام جي",
+          "إم جي"
+        ],
+        "models": [
+          "zs",
+          "زد اس",
+          "ام جي zs"
+        ],
+        "liters": [
+          1.5
+        ],
         "from": 2017
       },
       "items": {
@@ -191,11 +327,185 @@
         "transmission_fluid": 60000
       },
       "sources": [
-        { "name": "Shift — التفاصيل الكاملة لصيانات إم جي ZS (نوفمبر 2022)", "url": "https://www.shift-eg.com/news/local-news/details/17739" }
+        {
+          "name": "Shift — التفاصيل الكاملة لصيانات إم جي ZS (نوفمبر 2022)",
+          "url": "https://www.shift-eg.com/news/local-news/details/17739"
+        }
       ],
       "notes": {
         "ar": "حسب الجدول الرسمي المنشور لإم جي ZS في مصر حتى 150 ألف كم.",
         "en": "From the official Egyptian MG ZS schedule as published, up to 150,000 km."
+      }
+    },
+    {
+      "id": "toyota-corolla-2008",
+      "title": {
+        "ar": "تويوتا كورولا 1.6 / 1.8 (2008 وبعد)",
+        "en": "Toyota Corolla 1.6 / 1.8 (2008+)"
+      },
+      "match": {
+        "modelIds": [
+          "toyota-corolla"
+        ],
+        "makes": [
+          "toyota",
+          "تويوتا"
+        ],
+        "models": [
+          "corolla",
+          "كورولا",
+          "كرولا"
+        ],
+        "liters": [
+          1.6,
+          1.8
+        ],
+        "from": 2008
+      },
+      "timing": "chain",
+      "items": {
+        "air_filter": 40000,
+        "cabin_filter": 20000,
+        "spark_plugs": 100000,
+        "fuel_filter": 40000
+      },
+      "sources": [
+        {
+          "name": "المربع نت — جدول صيانة تويوتا كورولا (أسعار عبد اللطيف جميل)",
+          "url": "https://www.almuraba.net/%d8%ac%d8%af%d9%88%d9%84-%d8%b5%d9%8a%d8%a7%d9%86%d8%a9-%d8%aa%d9%88%d9%8a%d9%88%d8%aa%d8%a7-%d9%83%d9%88%d8%b1%d9%88%d9%84%d8%a7/"
+        }
+      ],
+      "notes": {
+        "ar": "من جدول تويوتا في السعودية. البوجيهات إيريديوم كل 100 ألف كم. الزيت بيفضل على حسب نوع الزيت اللي بتستخدمه، والمياه (التبريد) أول تغيير بعد 160 ألف كم.",
+        "en": "From Toyota's schedule in Saudi Arabia. Iridium spark plugs every 100,000 km. Oil follows the oil type you use; coolant is first replaced at 160,000 km."
+      }
+    },
+    {
+      "id": "kia-cerato-1.6-2013",
+      "title": {
+        "ar": "كيا سيراتو 1.6 (2013 وبعد)",
+        "en": "Kia Cerato 1.6 (2013+)"
+      },
+      "match": {
+        "modelIds": [
+          "kia-cerato"
+        ],
+        "makes": [
+          "kia",
+          "كيا"
+        ],
+        "models": [
+          "cerato",
+          "سيراتو",
+          "جراند سيراتو",
+          "grand cerato",
+          "k3"
+        ],
+        "liters": [
+          1.6
+        ],
+        "from": 2013
+      },
+      "timing": "chain",
+      "items": {
+        "air_filter": 45000,
+        "spark_plugs": 60000,
+        "drive_belt": 120000,
+        "fuel_filter": 60000
+      },
+      "sources": [
+        {
+          "name": "auto-abc — Kia Cerato 1.6 service intervals",
+          "url": "https://www.auto-abc.eu/Kia-Cerato/v15378-2016/service"
+        }
+      ],
+      "notes": {
+        "ar": "مواعيد الصانع حسب موقع auto-abc (مش جدول الوكيل في مصر). الموتور بكاتينة مش سير.",
+        "en": "Manufacturer intervals as listed by auto-abc (not the Egyptian dealer's table). The engine has a timing chain."
+      }
+    },
+    {
+      "id": "mitsubishi-lancer-1.6-belt",
+      "title": {
+        "ar": "ميتسوبيشي لانسر 1.6 (لحد 2015)",
+        "en": "Mitsubishi Lancer 1.6 (up to 2015)"
+      },
+      "match": {
+        "modelIds": [
+          "mitsubishi-lancer"
+        ],
+        "makes": [
+          "mitsubishi",
+          "ميتسوبيشي",
+          "متسوبيشي"
+        ],
+        "models": [
+          "lancer",
+          "لانسر"
+        ],
+        "liters": [
+          1.6
+        ],
+        "to": 2015
+      },
+      "timing": "belt",
+      "items": {
+        "air_filter": 30000,
+        "spark_plugs": 30000,
+        "coolant": 60000,
+        "timing_belt": 90000,
+        "drive_belt": 120000
+      },
+      "sources": [
+        {
+          "name": "auto-abc — Mitsubishi Lancer 1.6 service intervals",
+          "url": "https://www.auto-abc.eu/Mitsubishi-Lancer/v18098-2004/service"
+        }
+      ],
+      "notes": {
+        "ar": "مواعيد الصانع حسب موقع auto-abc. الموتور ده بسير تايمنج كل 90 ألف كم. لانسر شارك (2016 وبعد) موتورها مختلف ومش داخلة هنا.",
+        "en": "Manufacturer intervals per auto-abc. This engine has a timing belt every 90,000 km. The 2016+ Lancer has a different engine and is not covered."
+      }
+    },
+    {
+      "id": "peugeot-301-1.6",
+      "title": {
+        "ar": "بيجو 301 1.6",
+        "en": "Peugeot 301 1.6"
+      },
+      "match": {
+        "modelIds": [
+          "peugeot-301"
+        ],
+        "makes": [
+          "peugeot",
+          "بيجو"
+        ],
+        "models": [
+          "301"
+        ],
+        "liters": [
+          1.6
+        ],
+        "from": 2012
+      },
+      "timing": "belt",
+      "items": {
+        "air_filter": 20000,
+        "coolant": 120000,
+        "timing_belt": 120000,
+        "drive_belt": 120000,
+        "fuel_filter": 40000
+      },
+      "sources": [
+        {
+          "name": "auto-abc — Peugeot 301 1.6 service intervals",
+          "url": "https://www.auto-abc.eu/Peugeot-301/v20959-2013/service"
+        }
+      ],
+      "notes": {
+        "ar": "مواعيد الصانع حسب موقع auto-abc. كتير من المراكز في مصر بتنصح تكشف على سير التايمنج من 60 ألف كم، ولو العربية شغالة في ظروف صعبة التطبيق بيقصّر المواعيد.",
+        "en": "Manufacturer intervals per auto-abc. Many Egyptian workshops advise checking the timing belt from 60,000 km; severe-conditions mode shortens the intervals."
       }
     }
   ]
