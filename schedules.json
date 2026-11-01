@@ -1,7 +1,7 @@
 {
   "format": 1,
-  "version": 2,
-  "updated": "2026-10-22",
+  "version": 3,
+  "updated": "2026-11-01",
   "note": "Kilometre intervals per model from Egyptian service schedules. Time limits (months) are not in these sources, so the app keeps its general estimate for time. Items a schedule does not mention keep the general estimate.",
   "schedules": [
     {
@@ -506,6 +506,102 @@
       "notes": {
         "ar": "مواعيد الصانع حسب موقع auto-abc. كتير من المراكز في مصر بتنصح تكشف على سير التايمنج من 60 ألف كم، ولو العربية شغالة في ظروف صعبة التطبيق بيقصّر المواعيد.",
         "en": "Manufacturer intervals per auto-abc. Many Egyptian workshops advise checking the timing belt from 60,000 km; severe-conditions mode shortens the intervals."
+      }
+    },
+    {
+      "id": "hyundai-accent-rb-1.6",
+      "title": {
+        "ar": "هيونداي أكسنت RB 1.6 (2011–2018)",
+        "en": "Hyundai Accent RB 1.6 (2011–2018)"
+      },
+      "match": {
+        "modelIds": [
+          "hyundai-accent"
+        ],
+        "makes": [
+          "hyundai",
+          "هيونداي",
+          "هيونداى",
+          "هونداي"
+        ],
+        "models": [
+          "accent",
+          "اكسنت",
+          "أكسنت",
+          "اكسينت",
+          "rb"
+        ],
+        "liters": [
+          1.6
+        ],
+        "from": 2011,
+        "to": 2018
+      },
+      "timing": "chain",
+      "items": {
+        "air_filter": 45000,
+        "spark_plugs": 60000,
+        "drive_belt": 120000,
+        "fuel_filter": 60000
+      },
+      "sources": [
+        {
+          "name": "auto-abc — Hyundai Accent 2010–2018 1.6 service intervals",
+          "url": "https://www.auto-abc.eu/Hyundai-Accent/v16635-2010/service"
+        }
+      ],
+      "notes": {
+        "ar": "مواعيد الصانع حسب موقع auto-abc (مش جدول التوكيل في مصر). الموتور بكاتينة مش سير.",
+        "en": "Manufacturer intervals per auto-abc (not the Egyptian dealer's table). The engine has a timing chain."
+      }
+    },
+    {
+      "id": "chevrolet-optra-1.6",
+      "title": {
+        "ar": "شيفروليه أوبترا 1.6 (لحد 2012)",
+        "en": "Chevrolet Optra 1.6 (up to 2012)"
+      },
+      "match": {
+        "modelIds": [
+          "chevrolet-optra"
+        ],
+        "makes": [
+          "chevrolet",
+          "شيفروليه",
+          "شيفرولية",
+          "شفروليه",
+          "شيفورليه"
+        ],
+        "models": [
+          "optra",
+          "اوبترا",
+          "أوبترا",
+          "lacetti",
+          "لاسيتي"
+        ],
+        "liters": [
+          1.6
+        ],
+        "to": 2012
+      },
+      "timing": "belt",
+      "items": {
+        "air_filter": 30000,
+        "spark_plugs": 30000,
+        "coolant": 45000,
+        "timing_belt": 60000,
+        "drive_belt": 60000,
+        "fuel_filter": 45000
+      },
+      "sources": [
+        {
+          "name": "auto-abc — Chevrolet Lacetti/Optra 1.6 service intervals",
+          "url": "https://www.auto-abc.eu/Chevrolet-Lacetti/v14368-2005/service"
+        }
+      ],
+      "notes": {
+        "ar": "مواعيد الصانع للموتور 1.6 بتاع لاسيتي/أوبترا حسب auto-abc. سير التايمنج كل 60 ألف كم، وفيه ميكانيكية بينصحوا يتكشف عليه من 30 ألف. «نيو أوبترا» 2017 وبعد موتورها مختلف ومش داخلة هنا.",
+        "en": "Manufacturer intervals for the Lacetti/Optra 1.6 per auto-abc. Timing belt every 60,000 km; some mechanics advise checking it from 30,000. The 2017+ 'New Optra' has a different engine and is not covered."
       }
     }
   ]
